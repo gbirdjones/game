@@ -1,0 +1,51 @@
+
+#loading {
+	margin: 0 auto;
+	width: 4em;
+	height: 1.3em;
+	background: green;
+	text-align: center;
+	font-size: 10em;
+}
+#menu {
+	position: fixed;
+	margin: 10% 10%;
+	background: orange;
+	color: blue;
+	width: 30em;
+	text-align: center;
+	padding: .5em 2em;
+}
+#play {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: white;
+	margin: 2em 2em;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	display: none;
+}
+#leader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: blue;
+	margin: 2em 2em;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	display: none;
+}
+#options {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: red;
+	margin: 2em 2em;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	display: none;
+}
