@@ -1,15 +1,20 @@
-
+body {
+	background: black;
+}
 #loading {
+	position: relative;
+	z-index: 20000;
 	margin: 0 auto;
 	width: 4em;
 	height: 1.3em;
 	background: green;
 	text-align: center;
 	font-size: 10em;
+	margin-top: 20%;
 }
 #menu {
-	position: fixed;
-	margin: 10% 10%;
+	z-index: 10000000;
+	margin: 0 auto;
 	background: orange;
 	color: blue;
 	width: 30em;
@@ -17,33 +22,36 @@
 	padding: .5em 2em;
 }
 #play {
+	z-index: 1;
 	position: fixed;
-	top: 0;
+	top: 1em;
 	left: 0;
 	background: white;
-	margin: 2em 2em;
+	margin: 2em auto;
 	height: 100%;
 	width: 100%;
 	text-align: center;
 	display: none;
 }
 #leader {
+	z-index: 1;
 	position: fixed;
-	top: 0;
+	top: 1em;
 	left: 0;
 	background: blue;
-	margin: 2em 2em;
+	margin: 2em auto;
 	height: 100%;
 	width: 100%;
 	text-align: center;
 	display: none;
 }
 #options {
+	z-index: 1;
 	position: fixed;
-	top: 0;
+	top: 1em;
 	left: 0;
 	background: red;
-	margin: 2em 2em;
+	margin: 2em auto;
 	height: 100%;
 	width: 100%;
 	text-align: center;

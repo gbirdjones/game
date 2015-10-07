@@ -19,17 +19,20 @@ $(document).ready(function () {
 		},
 		playFunc: function playFunc() {
 			console.log("play");
-			$('#menu').hide();
+			$('#leader').hide();
+			$('#options').hide();
 			$('#play').show();
 		},
 		leaderFunc: function leaderFunc() {
 			console.log("leader");
-			$('#menu').hide();
+			$('#play').hide();
+			$('#options').hide();
 			$('#leader').show();
 		},
 		optionsFunc: function optionsFunc() {
 			console.log("options");
-			$('#menu').hide();
+			$('#play').hide();
+			$('#leader').hide();
 			$('#options').show();
 		}
 
